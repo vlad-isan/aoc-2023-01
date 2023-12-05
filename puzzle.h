@@ -18,4 +18,7 @@ int puzzle_sample_2(std::string base_file_path);
 int puzzle_1(std::string base_file_path);
 int puzzle_2(std::string base_file_path);
 
+int do_puzzle_1(std::ifstream &file);
+int do_puzzle_2(std::ifstream &file);
+
 #endif //PUZZLE_H
