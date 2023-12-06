@@ -10,7 +10,10 @@ int main() {
         return EXIT_FAILURE;
     }
 
+    puzzle_sample_1(base_file_path);
     puzzle_1(base_file_path);
+    puzzle_sample_2(base_file_path);
+    puzzle_2(base_file_path);
 
     return 0;
 }
