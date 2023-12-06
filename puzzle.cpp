@@ -132,7 +132,6 @@ std::string get_uber_digit(const T &first_it, const T &last_it, bool should_reve
             std::reverse(digit_word.begin(), digit_word.end());
         }
 
-
         if (const auto it = std::search(first_it, really_last_it, digit_word.begin(), digit_word.end());
             it != really_last_it) {
 
